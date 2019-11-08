@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace ABP.TaskSystem.Implementations
 {
-    public class TaskAppService : TaskSystemAppServiceBase, ITaskAppSeervice
+    public class TaskAppService : TaskSystemAppServiceBase, ITaskAppService
     {
         private readonly IRepository<Task> _taskRepository;
 
